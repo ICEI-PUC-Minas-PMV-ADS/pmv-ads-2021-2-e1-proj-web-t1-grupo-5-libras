@@ -10,14 +10,14 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
+* Bruno Pereira Passos
+* Felipe Augusto Rocha da Silva
+* Leonardo Filter Friedrich 
 * Nome completo do aluno 4
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina de Paiva Carvalho
 
 ## Instruções de utilização
 
