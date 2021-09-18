@@ -1,91 +1,83 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+O presente trabalho visa apresentar uma solução ao problema de acesso à educação pelas pessoas portadoras de deficiência auditiva, na medida em que cuida-se de um grupo marginalizado pela população, devido à falta de investimento para melhor suprir suas necessidades no âmbito educacional, sendo uma delas: a presença de um intérprete de libras para fazer a ponte entre o aluno PCD e o professor não-PCD.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Luiza Magalhães Cortez tem 28 anos, é formada em Design de Produtos e no momento está a procura de uma oportunidade de recolocação no mercado. Surda desde que nasceu, Luiza gosta de estudar e aprender coisas novas e desde cedo teve incentivo para estudar, de tal forma que sua família a ajudou muito. Ela mora com seus pais e um irmão.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Luiza perdeu seu emprego durante a pandemia de COVID-19, fato esse que a levou a trancar a pós-graduação que estava cursando. Antes ela tinha o costume de ir trabalhar em uma agência no centro de Belo Horizonte, e ir para a pós, na região do bairro Funcionários. Gosta de ler livros, assistir filmes e séries no tempo livre. Gosta também de sair para passear, visitar exposições de arte e ir em um bom restaurante.
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Luiza enumera algumas de suas dores relatando que teve oportunidade de estudar, porém o processo foi bem difícil. Sempre perdeu muita informação durante as aulas, por não ter intérprete, e, quando havia um, ela se sentia mais isolada dos ouvintes. Era necessário prestar muita atenção para fazer leitura labial, o que é muito cansativo. Segundo ela, existem aplicativos que transcrevem o que as pessoas estão falando, mas não funcionam tão bem. Além disso, as tecnologias que facilitam a comunicação costumam ser caras. 
+
+Para ela, a maneira mais eficiente para aprendizado é através de intérpretes, apesar de gostar também de legenda e boas transcrições. Infelizmente, porém, há muitos surdos que possuem certa dificuldade no português, então preferem intérprete nas plataformas e ler em libras escrita.
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+Com base na análise das personas foram identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+| EU COMO... `PERSONA` | QUERO/PRECISO ... `FUNCIONALIDADE`                           | PARA ... `MOTIVO/VALOR`                                     |
+| -------------------- | ------------------------------------------------------------ | ----------------------------------------------------------- |
+| Luiza                | buscar intérpretes libras                                    | me ajudar nos meus estudos                                  |
+| Luiza                | realizar a buscas com auxílio de filtros: de tempo de experiências, especialidade, gênero e reputação (NPS) | encontrar um profissional com maior aderência ao meu perfil |
+| Luiza                | realizar buscas com auxílio de filtro de disponibilidade de data | evitar conflitos de agenda e evitar desencontros            |
+| Luiza                | receber indicações de profissionais de acordo com o meu perfil | tornar a busca mais ágil                                    |
+| Luiza                | favoritar os profissionais que já tive contato               | poder contratá-los novamente                                |
+| Luiza                | efetuar o pagamento do profissional por meio do site         | tornar mais segura transação de crédito                     |
+| Luiza                | poder reportar um profissional por desrespeito e outra falha ética | evitar contato futuro com o mesmo                           |
+| Luiza                | buscar por nome o profissional que eu já conheça ou receba indicação | ser mais assertiva na busca                                 |
+| Luiza                | poder indicar o profissional que tenha me atendido bem       | auxiliar colegas                                            |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
-## Requisitos
+## Requisitos do Projeto
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
+| ID    | Descrição do Requisito                                       | Prioridade |
+| ----- | ------------------------------------------------------------ | ---------- |
+| RF-01 | O site deve apresentar, na página principal, novidades e dicas para melhorar a aprendizagem dos alunos | ALTA       |
+| RF-02 | O site deve apresentar, para cada profissional, uma caixa de mensagem correspondente ao assunto que ele é especialista | ALTA       |
+| RF-03 | O site deve permitir ao usuário visualizar o texto completo das informações de todos os profissionais listados | ALTA       |
+| RF-04 | O site deve oferecer um menu adicional que permita ao usuário filtrar as informações de pesquisa | ALTA       |
+| RF-05 | O site deve permitir a ligação por videoconferência em outras plataformas (Meet, Teams, Skype, Discord) | ALTA       |
+| RF-06 | O site deve oferecer a funcionalidade de favoritar os professores no qual ele teve aula ou contato, para que melhore a recomendação do profissional | MÉDIA      |
+| RF-07 | O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA      |
+| RF-08 | O site deve permitir a visualização dos feedbacks, tanto BC quanto CB | MÉDIA      |
+| RF-09 | O site deve permitir salvar as aulas                         | MÉDIA      |
+| RF-10 | O site deve permitir verificar as aulas salvas como preferidas | BAIXA      |
+| RF-11 | O site deve permitir que usuários possam comentar conteúdos  | BAIXA      |
+| RF-12 | O site deve ter um fórum de dúvidas conforme a aula estudada | BAIXA      |
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
+| ID     | Descrição do Requisito                                       | Prioridade |
+| ------ | ------------------------------------------------------------ | ---------- |
+| RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku) | ALTA       |
+| RNF-02 | O site deverá ser responsivo permitindo a visualização em um celular de forma adequada | ALTA       |
+| RNF-03 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA      |
+| RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA       |
+| RNF-05 | O site deve ter um banco de dado referente aos professores   | ALTA       |
+| RNF-06 | O site deve ter um filtro nas pesquisas                      | ALTA       |
+| RNF-07 | O site deve fazer a intermediação com um plataforma de videoconferência (Meet, Teams, Skype, Discord) | ALTA       |
+| RNF-08 | O site deve oferecer pagamentos via plataforma (Paypal, Boleto, Cartão de crédito, PIX) | ALTA       |
+| RNF-09 | O site deve manter um fórum de dúvidas para cada aula/professor | MÉDIA      |
 
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+
 
 ## Restrições
 
 O projeto está restrito pelos itens apresentados na tabela a seguir.
 
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+| ID    | Restrição                                                    |
+| ----- | ------------------------------------------------------------ |
+| RE-01 | O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 06/12/2021 |
+| RE-02 | O aplicativo deve se restringir às tecnologias básicas da Web no Frontend |
+| RE-03 | A equipe não pode subcontratar o desenvolvimento do trabalho |
+| RE-04 | Não pode ser desenvolvido um módulo de backend               |
