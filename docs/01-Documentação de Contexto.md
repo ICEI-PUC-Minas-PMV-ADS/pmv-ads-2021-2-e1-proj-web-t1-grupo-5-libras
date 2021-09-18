@@ -1,46 +1,41 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A tecnologia e os serviços oferecidos por meios eletrônicos estão cada vez mais presentes na vida das pessoas. Pode-se citar, por exemplo, a computação Ubíqua, a qual possui a ideia de que os computadores serão parte da vida de todos os seres humanos em todos os lugares e momentos, sem que o mesmo perceba esse fato (Kahl e Florianom 2012). É cada vez mais comum, a existência de plataformas capazes de realizar diversas tarefas que auxiliam as pessoas no seu dia a dia. Uma área que também está sendo atingida pela globalização e inclusão da tecnologia é a área da educação. Segundo Porto (2012), com a presença constante da tecnologia na vida dos jovens, os educadores buscam maneiras de utilizar essa tecnologia para melhorar a aprendizagem. Para esse fim, existem plataformas e sites diversos, os quais auxiliam tanto na aprendizagem a distância, por exemplo, quanto na contratação de profissionais para o ensino.
+
+A disponibilidade de recursos computacionais é também de grande importância na educação inclusiva. Segundo Valadão et al. (2016), no Brasil, estudantes com deficiência têm enfrentado dificuldades em relação às suas necessidades educacionais, principalmente os alunos com deficiência auditiva. Com o advento da presente evolução tecnológica, diversos sites e aplicativos também foram desenvolvidos para facilitar e promover a inclusão de pessoas com deficiência (PCD), tanto na educação quanto no mercado de trabalho. Pode-se citar, por exemplo, o trabalho de Mourão et al. (2019), os quais apresentam um aplicativo responsável por auxiliar alunos de ensino superior a terem acesso a uma educação inclusiva.
+
+Visto as necessidades da educação inclusiva de pessoas com deficiência auditiva, o presente trabalho tem o intuito de desenvolver um site capaz de auxiliar essas pessoas no processo de aprendizagem. O site tem o intuito de amparar o usuário na procura por um profissional capacitado para atuar como intérprete de LIBRAS de determinado curso que ele esteja interessado. Com isso, o aprendizado poderá ser otimizado, se dando da maneira que mais se adequa às necessidades do PCD.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+O acesso à educação por pessoas com deficiência sempre foi um desafio, devido à carência de recursos técnicos mínimos para melhor recebê-los em instituições de ensino. Fato que se estende a vida adulta, haja vista que poucas empresa se disponibilizam a contratar PCDs com “limitações mais graves”, o que vem marginalizar tal segmento da população os quais se veem impedidos dos gozo de sua autonomia, reforçando o estigma de “vítimas do acaso” e “incapazes”.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Se não bastasse isso, a inserção desse segmento tornou-se ainda mais custosa devido ao advento da pandemia do Covid-19, que impôs o isolamento social e a adoção do teletrabalho e do ensino a distância (EAD) como regra. Isso porque os programas de reuniões online (por exemplo meet, zoom, teams, etc) tornaram-se o principal meio de comunicação entre alunos, professores e colaboradores; os quais, infelizmente, não foram planejados com base na interação do PCD com o não PCD, tendo em vista que o recurso de transcrição da fala é impreciso dependendo do modo como o locutor se comunica, havendo, por diversas vezes, a descontextualização de um tema pela transcrição errônea de palavras.
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dessa forma, nota-se como necessária a criação de uma ferramenta ou recurso que vise mitigar tal cenário, proporcionando assim aos PCDs auditivos meio para se inserir, de forma menos traumática, nas instituições de ensino e no mercado de trabalho.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste trabalho é a criação de um site de busca de profissionais intérpretes de LIBRAS (Língua Brasileira de Sinais), para assim conectá-las a pessoas com deficiência auditiva, proporcionando, dessa forma, o acesso destes às instituições de ensino que carecem de recursos para atendê-los.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Como objetivos específicos, podemos ressaltar:
+
+- Fornecer um site que observe todos os recursos de acessibilidade, para facilitar o seu manuseio por pessoas com deficiência;
+- Integrá-lo a um banco de dados de Intérpretes de libras;
+- Funcionalidade para busca de profissionais com base em alguns filtros; como gênero, experiência, nota nps (Net Promoter Score), valor do investimentos;
+- Permitir a criação de perfis de anúncios pelo profissional e perfil de usuário pelo PCD.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+O IBGE, por meio do censo realizado no ano de 2010, constatou que mais de 9 milhões de brasileiros declararam ter deficiência auditiva, dentre os quais, 2,1 milhões (21%) afirmaram ter deficiência auditiva severa, 344,2 mil surdos e 1,7 milhão com grande dificuldade em ouvir (Nascimento, H. 2018).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+Além disso, a aludida pesquisa ainda esclareceu que em 2015 o RAIS (Relação Anual de Informações Sociais) confirmou que apenas 80 mil pessoas com algum nível de surdez trabalhavam de carteira assinada, fato decorrente pela grande dificuldade de acesso do deficiente auditivo ao ensino básico e superior (Nascimento, H. 2018).
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Realidade esta que se encontra em total dissonância ao instituído pela Lei Federal n. 5.626 de 2005, que estabelece a LIBRAS como matéria mandatória de todos os cursos de formação de professores, sejam eles de nível superior, médio ou de magistério.
+
+Face ao exposto, nota-se que a solução proposta veem como um aliado as políticas já existentes, mas que ainda não foram capazes de suprir a necessidade desse público, vindo como uma alternativa viável àqueles que precisam de um intérprete de LIBRAS para eliminar o eventual abismo da comunicação entre o professor e o aluno.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+A presente solução é capaz de atender todas as pessoas com deficiência auditiva que venha precisar de um intérprete, porém tem-se como foco os alunos do ensino básico ao superior, de diferentes classes sociais, pois foi constatado que são os que mais sofrem pela a falta de oferta desse serviço.
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+De tal modo, visa fomentar o mercado educacional, ao passo que será oportunizado que profissionais que atuam como intérpretes de LIBRAS anunciem sua força de trabalho. Logo, tem-se como público alvo tanto o aluno PCD auditivo, quanto o próprio intérprete de LIBRAS.
