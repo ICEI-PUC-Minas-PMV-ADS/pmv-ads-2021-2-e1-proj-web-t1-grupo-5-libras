@@ -13,7 +13,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Bruno Pereira Passos
 * Felipe Augusto Rocha da Silva
 * Leonardo Filter Friedrich 
-* Nome completo do aluno 4
+* Débora Brito Santos
 
 ## Orientador
 
