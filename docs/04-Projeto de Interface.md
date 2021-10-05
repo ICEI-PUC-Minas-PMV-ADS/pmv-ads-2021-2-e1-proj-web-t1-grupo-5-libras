@@ -5,19 +5,20 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 
 ## User Flow
 
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/file/q5KkDPr7ooeopIRWHSC7AW/projeto-libras?node-id=0%3A1).
+O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/file/q5KkDPr7ooeopIRWHSC7AW/projeto-libras?node-id=0%3A1).
 
 ![UserFlow](img/fluxoUsuario.png)
+<center> Fluxo do usuário proposto para o site de intérprete de LIBRAS </center>
 
 ## Wireframes
 
-Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na Figura 1. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
+Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do sistema são apresentadas em detalhes nos itens que se seguem. As telas do sistema apresentam uma estrutura comum que é apresentada na figura abaixo. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles:
 
  - **Cabeçalho** - local onde são dispostos elementos fixos de identidade (logo) e navegação principal do site (menu da aplicação);
  - **Conteúdo** - apresenta o conteúdo da tela em questão;
 
 ![layout da tela](img/cabecalhoConteudo.png)
-<center>Figura XX - Arquitetura da Solução</center>
+<center> Layout básico das telas do site </center>
 
 ### Tela - Home-Page
 
