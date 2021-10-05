@@ -17,6 +17,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
  - **Conteúdo** - apresenta o conteúdo da tela em questão;
 
 ![layout da tela](img/cabecalhoConteudo.png)
+<center>Figura XX - Arquitetura da Solução</center>
 
 ### Tela - Home-Page
 
