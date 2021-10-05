@@ -8,7 +8,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o [ambiente Figma do projeto](https://www.figma.com/file/q5KkDPr7ooeopIRWHSC7AW/projeto-libras?node-id=0%3A1).
 
 ![UserFlow](img/fluxoUsuario.png)
-<center> Fluxo do usuário proposto para o site de intérprete de LIBRAS </center>
+<center> Fgura 1: Fluxo do usuário proposto para o site de intérprete de LIBRAS </center>
 
 ## Wireframes
 
@@ -18,7 +18,7 @@ Conforme fluxo de telas do projeto, apresentado no item anterior, as telas do si
  - **Conteúdo** - apresenta o conteúdo da tela em questão;
 
 ![layout da tela](img/cabecalhoConteudo.png)
-<center> Layout básico das telas do site </center>
+<center> Figura 2: Layout básico das telas do site </center>
 
 ### Tela - Home-Page
 
