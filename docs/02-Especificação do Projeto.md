@@ -28,8 +28,6 @@ Com base na análise das personas foram identificadas as seguintes histórias de
 | Luiza                | buscar por nome o profissional que eu já conheça ou receba indicação | ser mais assertiva na busca                                 |
 | Luiza                | poder indicar o profissional que tenha me atendido bem       | auxiliar colegas                                            |
 
-
-
 ## Requisitos do Projeto
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
@@ -40,18 +38,15 @@ A tabela a seguir apresenta os requisitos funcionais do projeto, identificando a
 
 | ID    | Descrição do Requisito                                       | Prioridade |
 | ----- | ------------------------------------------------------------ | ---------- |
-| RF-01 | O site deve apresentar, na página principal, novidades e dicas para melhorar a aprendizagem dos alunos | ALTA       |
-| RF-02 | O site deve apresentar, para cada profissional, uma caixa de mensagem correspondente ao assunto que ele é especialista | ALTA       |
+| RF-01 | O site deve apresentar, na página principal, uma caixa de busca para aulas e profissionais desejados | ALTA       |
+| RF-02 | O site deve oferecer um menu adicional que permita ao usuário filtrar as informações de pesquisa | ALTA       |
 | RF-03 | O site deve permitir ao usuário visualizar o texto completo das informações de todos os profissionais listados | ALTA       |
 | RF-04 | O site deve oferecer um menu adicional que permita ao usuário filtrar as informações de pesquisa | ALTA       |
-| RF-05 | O site deve permitir a ligação por videoconferência em outras plataformas (Meet, Teams, Skype, Discord) | ALTA       |
-| RF-06 | O site deve oferecer a funcionalidade de favoritar os professores no qual ele teve aula ou contato, para que melhore a recomendação do profissional | MÉDIA      |
-| RF-07 | O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA      |
-| RF-08 | O site deve permitir a visualização dos feedbacks, tanto BC quanto CB | MÉDIA      |
-| RF-09 | O site deve permitir salvar as aulas                         | MÉDIA      |
-| RF-10 | O site deve permitir verificar as aulas salvas como preferidas | BAIXA      |
-| RF-11 | O site deve permitir que usuários possam comentar conteúdos  | BAIXA      |
-| RF-12 | O site deve ter um fórum de dúvidas conforme a aula estudada | BAIXA      |
+| RF-05 | O site deve oferecer a funcionalidade de comentar sobre os professores no qual ele teve aula ou contato e favoritar aqueles que mais se destacaram | MÉDIA      |
+| RF-06 | O site deve permitir visualizar as informações de contatos do mantenedor do site | MÉDIA      |
+| RF-07 | O site deve permitir a visualização dos feedbacks, tanto BC quanto CB | MÉDIA      |
+| RF-08 | O site deve permitir que usuários possam comentar conteúdos  | BAIXA      |
+| RF-09 | O site deve ter um fórum de dúvidas conforme a aula estudada | BAIXA      |
 
 ### Requisitos não Funcionais
 
@@ -64,12 +59,7 @@ A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá 
 | RNF-03 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade | MÉDIA      |
 | RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge) | ALTA       |
 | RNF-05 | O site deve ter um banco de dado referente aos professores   | ALTA       |
-| RNF-06 | O site deve ter um filtro nas pesquisas                      | ALTA       |
-| RNF-07 | O site deve fazer a intermediação com um plataforma de videoconferência (Meet, Teams, Skype, Discord) | ALTA       |
-| RNF-08 | O site deve oferecer pagamentos via plataforma (Paypal, Boleto, Cartão de crédito, PIX) | ALTA       |
-| RNF-09 | O site deve manter um fórum de dúvidas para cada aula/professor | MÉDIA      |
-
-
+| RNF-06 | O site deve oferecer pagamentos via plataforma (Paypal, Boleto, Cartão de crédito, PIX) | ALTA       |
 
 ## Restrições
 
