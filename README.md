@@ -6,7 +6,7 @@
 
 `2021/2`
 
-O projeto desenvolvido pelo grupo se refere à criação de um site de busca de profissionais intérpretes de LIBRAS (Língua Brasileira de Sinais), para conectar esses profissionais a pessoas com deficiência auditiva, proporcionando, dessa forma, o acesso de pessoas com nececssidades especiais às instituições de ensino que carecem de recursos para atendê-los.
+O projeto desenvolvido pelo grupo se refere à criação de um site de busca de profissionais intérpretes de LIBRAS (Língua Brasileira de Sinais), para conectá-los a pessoas com deficiência auditiva, proporcionando, dessa forma, o acesso dessas pessoas às instituições de ensino que carecem de recursos para atendê-los. O site possue um campo para busca de profissioais que mais se adequam às necessidades e ao contexto do usuário, sendo capaz de apresentar as competências dos profissionais cadastrados, bem como um histórico dos últimos profissionais contratados pelo usuário e um campo para classificação dos mesmos, a fim de auxiliar nas buscas futuras.
 
 ## Integrantes
 
