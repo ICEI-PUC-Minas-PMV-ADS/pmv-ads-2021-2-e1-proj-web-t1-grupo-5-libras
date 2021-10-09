@@ -1,12 +1,12 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`PROJETO: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`2021/2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O projeto desenvolvido pelo grupo se refere à criação de um site de busca de profissionais intérpretes de LIBRAS (Língua Brasileira de Sinais), para conectar esses profissionais a pessoas com deficiência auditiva, proporcionando, dessa forma, o acesso de pessoas com nececssidades especiais às instituições de ensino que carecem de recursos para atendê-los.
 
 ## Integrantes
 
